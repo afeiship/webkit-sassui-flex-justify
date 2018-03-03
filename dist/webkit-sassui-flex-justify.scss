@@ -1,0 +1,14 @@
+/*webkit-sassui-flex-justify Start*/
+$webkit-sassui-flex-justify-align-map:(flex-start,center,flex-end);
+
+.webkit-sassui-flex-justify{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @each $value in $webkit-sassui-flex-justify-align-map{
+    &[data-align=#{$value}]{
+      align-items: #{$value};
+    }
+  }
+}
+/*webkit-sassui-flex-justify End*/

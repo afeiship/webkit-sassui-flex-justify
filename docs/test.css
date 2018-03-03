@@ -1,0 +1,24 @@
+/*webkit-sassui-flex-justify Start*/
+.webkit-sassui-flex-justify {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.webkit-sassui-flex-justify[data-align=flex-start] {
+  align-items: flex-start;
+}
+
+.webkit-sassui-flex-justify[data-align=center] {
+  align-items: center;
+}
+
+.webkit-sassui-flex-justify[data-align=flex-end] {
+  align-items: flex-end;
+}
+
+/*webkit-sassui-flex-justify End*/
+.test-webkit-sassui-flex-justify {
+  border: 1px solid brown;
+  height: 40px;
+}
