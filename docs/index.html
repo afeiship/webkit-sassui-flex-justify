@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,36 @@
   <title>webkit-sassui-flex-justify</title>
   <link rel="stylesheet" href="./test.css">
 </head>
+
 <body>
+  <div class="wrapper">
     <div class="webkit-sassui-flex-justify test-webkit-sassui-flex-justify" data-align="flex-start">
       <span>我是标题文字</span>
       <span style="color:#999;">2018-03-03</span>
     </div>
+
+    <div class="webkit-sassui-flex-justify test-webkit-sassui-flex-justify" data-align="normal" data-direction=column>
+      <h3>我是标题文字</h3>
+      <p>我是一段描述</p>
+    </div>
+
+
+    <div class="news-item test-webkit-sassui-flex-justify" style="display: flex;">
+      <div class="left" style="width:120px;">
+        <img src="http://placeholder.qiniudn.com/80x80" alt="" style="vertical-align:middle">
+      </div>
+      <div class="webkit-sassui-flex-justify right" style="flex:1;" data-direction=column data-align=normal>
+        <h4>宝宝把粑粑拉在客厅，扫地机器人来了……这画面不敢想象哈哈哈</h4>
+
+        <footer>
+            <p class="time webkit-sassui-flex-justify">
+                <span>钱江晚报</span>
+                <span style="color: #999;">3小时前</span>
+              </p>
+        </footer>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>

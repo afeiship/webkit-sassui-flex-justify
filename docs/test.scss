@@ -1,5 +1,16 @@
 @import "../dist/webkit-sassui-flex-justify.scss";
+* { margin: 0; padding:0 }
+.wrapper{
+  width: 550px;
+  margin:0 auto;
+}
 .test-webkit-sassui-flex-justify{
-  border: 1px solid brown;
-  height:40px;
+  border: 1px solid sandybrown;
+  min-height:80px;
+  margin-bottom: 20px;;
+
+  footer{
+    font-size: 12px;
+    background: #eee;
+  }
 }
