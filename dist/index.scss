@@ -1,0 +1,29 @@
+/*!
+ * name: @feizheng/webkit-sassui-flex-justify
+ * description: Flex justify items for webkit sassui.
+ * url: https://github.com/afeiship/webkit-sassui-flex-justify
+ * version: 1.0.0
+ * date: 2020-02-21 11:43:30
+ * license: MIT
+ */
+
+/*webkit-sassui-flex-justify Start*/
+$webkit-sassui-flex-justify-align-map: (flex-start, center, flex-end, normal);
+
+.webkit-sassui-flex-justify {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &[data-direction="row"] {
+    flex-direction: row;
+  }
+  &[data-direction="column"] {
+    flex-direction: column;
+  }
+  @each $value in $webkit-sassui-flex-justify-align-map {
+    &[data-align="#{$value}"] {
+      align-items: #{$value};
+    }
+  }
+}
+/*webkit-sassui-flex-justify End*/

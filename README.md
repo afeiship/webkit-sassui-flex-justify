@@ -1,8 +1,18 @@
 # webkit-sassui-flex-justify
-> Flex justify items for webkit sassui
+> Flex justify items for webkit sassui.
 
-## usage:
-+ https://afeiship.github.io/webkit-sassui-flex-justify/
+## documentation
+- https://afeiship.github.io/webkit-sassui-flex-justify/
 
-## resources:
+## installation
+```shell
+npm i @feizheng/webkit-sassui-flex-justify
+```
+
+## usage
+```scss
+@import '~@feizheng/webkit-sassui-flex-justify';
+```
+
+## resources
 + https://github.com/afeiship/generator-webkit-sassui
